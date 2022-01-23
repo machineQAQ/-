@@ -1,0 +1,640 @@
+<meta charset=utf-8>
+<html>
+<head>
+    <title>计算机科学导论</title>    
+    <style type="text/css">
+    body{
+        background-image: url(img/可重复背景2.jfif ) ;
+        opacity: 30;
+        background-repeat:repeat-y;
+        background-position: 15px 350px;
+        background-size: 100%;
+
+    }
+    .main{
+            margin: 5px;
+            overflow: hidden;
+    /*          border: 1px solid #000;*/
+        }
+    .column{
+            border: 1px solid #000;
+        }
+    .left{
+            float: left;
+            width: 100%;
+            overflow: auto;
+        }
+    .right{
+            float: left;
+            width: 22%;
+            margin-left: -204px;
+        }
+    .real{
+            margin-right: 330px;
+            border: 1px solid rgb(16, 16, 155);
+            height: 99%;
+        }
+    #abc { margin:0px;padding:0px;        position: fixed;
+        top: 6%;
+        right: 2%;
+        height: 20%;}
+     #abc h1{margin:0px; color:rgb(15, 198, 253); font-size:36px;font-family:"隶书"}
+     #abc li { list-style:none; display:block; width:328px; border:1px solid black; border-bottom-width:0px;}
+     #abc li.end{border-bottom-width:1px;}
+     #abc li a{ display:block; text-decoration:none; width:228px; padding:50px;} 
+     #abc li a span{ display:none; color:rgb(6, 203, 252); font-size:20px; padding:5px 0 0 0;font-family:"隶书";}
+     #abc li a:hover{ background:rgb(252, 198, 227);}
+     #abc li a:hover span{ display:block; cursor: hand;}
+    .title1 {
+        background-image: image("img\标题.gif");
+    }
+    .titlefor1{
+       height: 100px;
+       width: 1100px;
+     
+      line-height: 100px;
+      font-size: 40px;
+      font-weight: 1000;
+      font-family:"隶书";
+      color: rgba(78, 75, 75,.1);
+      background-image: url(img/风景2.webp);
+      background-size: 28% 140%;
+      -webkit-background-clip: text;
+      text-transform:uppercase;  
+    } 
+    .titlefor2{
+       height: 100px;
+       width: 710px;
+      line-height: 100px;
+      font-size: 40px;
+      font-weight: 1000;
+      font-family:"隶书";
+      color: rgba(78, 75, 75,.1);
+      background-image: url(img/风景4.webp);
+      background-size: 28% 140%;
+      -webkit-background-clip: text;
+      text-transform:uppercase;  
+    } 
+    .titlefor3{
+       height: 100px;
+       width: 710px;
+      line-height: 100px;
+      font-size: 40px;
+      font-weight: 1000;
+      font-family:"隶书";
+      color: rgba(78, 75, 75,.1);
+      background-image: url(img/风景3.webp);
+      background-size: 28% 140%;
+      -webkit-background-clip: text;
+      text-transform:uppercase;  
+    } 
+    .titlefor4{
+       height: 100px;
+       width: 710px;
+      line-height: 100px;
+      font-size: 40px;
+      font-weight: 1000;
+      font-family:"隶书";
+      color: rgba(78, 75, 75,.1);
+      background-image: url(img/风景1.webp);
+      background-size: 28% 140%;
+      -webkit-background-clip: text;
+      text-transform:uppercase;  
+    } 
+    .mytable{
+    border:1px solid #A6C1E4;
+    font-family:Arial;
+    border-collapse: collapse;
+    }
+    table th{
+    border:5px solid black;
+    background-color:#71c1fb;
+    width:8%;
+    height:20px;
+    font-size:24px;
+    }
+    table td{
+    border:1px solid #A6C1E4;
+    text-align:center;
+    height:15px;
+    padding-top:5px;
+    font-size:18px;
+    }
+    .double{
+    background-color:#c7dff6;
+    }
+    .once{
+    background-color:#fbfcfd;
+    }
+    .block1{
+			
+    border-style:dashed;
+    border:3px solid #da50b7;
+    padding: 5px;
+    width: 90%;
+    background-color: #d1e4ec;
+    font-size: 24px;
+    font-family:"仿宋";
+    font-weight: bold;
+    line-height: 45px;
+    }
+    .third-title{
+        
+    font-size: 28px;
+    font-family:"隶书";
+    font-weight: bold;
+    }
+
+  </style>
+</head>
+<body>   
+    <div class="main">
+        <div class="left column">
+            <div class="real" id="1">
+                
+                <img src="img\标题.gif" width=100%;>
+                <div class="titlefor1" id="2"><h3>计算机学科课程关系图</h3></div>
+                <img src="img/课程示意图.png" arc="计算机学科课程关系图" width=100%；>
+                <div class="titlefor2" id="3">
+                    <h3>计算机学科各课程参考资料</h3>
+                </div>
+                <u1>
+                    <li><strong>基石——计算机语言</strong></li>
+                    
+                    <ul>
+                        <li><strong>程序设计结构</strong></li>
+                        <table border='5'>
+                        <tr>
+                            <th>类型</th>
+                            <th>名称</th>
+                            <th>版本</th>
+                            <th>作者</th>                   
+                        </tr>
+                        <tr class="once">
+                            <td>专业课课本</td>
+                            <td><a href ="https://book.douban.com/subject/4279678/" target="_blank">
+                                C语言程序设计现代方法</a></td>
+                            <td>原书第三版</td>
+                            <td> K. N. King </td>
+                        </tr>
+                        <tr class="double">
+                            <td>经典读物</td>
+                            <td><a href ="https://book.douban.com/subject/1139336/" target="_blank">
+                                C程序设计语言（</a></td>
+                            <td>第二版</td>
+                            <td>Dennis M. Ritchie，Brian W. Kernighan</td>
+                        </tr>
+                        <tr class="once">
+                            <td>经典读物</td>
+                            <td><a href ="https://book.douban.com/subject/1173548/" target="_blank">
+                                程序设计实践</a></td>
+                            <td>第一版</td>
+                            <td>Brian W. Kernighan，Rob Pike </td>
+                        </tr>
+                        <tr class="double">
+                            <td>课程</td>
+                            <td><a href ="https://www.bilibili.com/video/BV1XZ4y1S7e1?from=search&seid=8841857571445044541&spm_id_from=333.337.0.0" target="_blank">
+                                浙江大学 C语言入门与进阶</a></td>
+                            <td>/</td>
+                            <td>翁恺</td>
+                        </tr>
+                        <tr class="once">
+                            <td>课程</td>
+                            <td><a href ="https://www.bilibili.com/video/BV1uE411F7g9?from=search&seid=15780094902609533074&spm_id_from=333.337.0.0" target="_blank">
+                                程序设计基础 清华大学</a></td>
+                            <td>/</td>
+                            <td>Ana Bell</td>
+                        </tr>
+                        <tr  class="double">
+                            <td>课程</td>
+                            <td><a href ="https://www.icourse163.org/course/PKU-1001553023?from=searchPage" target="_blank">
+                                程序设计与算法（一）C语言程序设计</a></td>
+                            <td>/</td>
+                            <td>郭炜</td>
+                        </tr>
+                        </table>
+                    </ul>
+
+                    <ul>
+                        <li><strong>JAVA</strong></li>
+                        <table border='5'>
+                        <tr>
+                            <th>类型</th>
+                            <th>名称</th>
+                            <th>版本</th>
+                            <th>作者</th>                   
+                        </tr>                
+                        <tr class="once">
+                            <td>专业课课本</td>
+                            <td><a href ="http://www.hzcourse.com/web/teachRes/detail/4408/208" target="_blank">
+                                Java语言程序设计与数据结构</a></td>
+                            <td>原书第11版</td>
+                            <td>Y. Daniel Liang</td>
+                        </tr>
+                        <tr class="double">
+                            <td>经典读物</td>
+                            <td><a href ="https://book.douban.com/subject/34895968/" target="_blank">
+                                Java实战</a></td>
+                            <td>第二版</td>
+                            <td> [英] 拉乌尔-加布里埃尔 • 乌尔玛，[意] 马里奥 • 富斯科，[英] 艾伦 • 米克罗夫特 </td>
+                        </tr>
+        
+                        <tr class="once">
+                            <td>经典读物</td>
+                            <td><a href ="http://www.hzcourse.com/web/teachRes/detail/5277/208" target="_blank">
+                                Java语言程序设计（进阶篇)</a></td>
+                            <td>原书第12版</td>
+                            <td>Y. Daniel Liang</td>
+                        </tr>
+                        <tr class="double">
+                            <td>课程</td>
+                            <td><a href ="https://www.bilibili.com/video/BV1wL411L7A3?from=search&seid=2139590283003328919&spm_id_from=333.337.0.0" target="_blank">
+                                Java入门与进阶 浙江大学</a></td>
+                            <td>/</td>
+                            <td>翁恺</td>
+                        </tr>
+                        <tr class="once">
+                            <td>课程</td>
+                            <td><a href ="https://www.icourse163.org/course/PKU-1001941004?from=searchPage" target="_blank">
+                                Java程序设计 北京大学</a></td>
+                            <td>/</td>
+                            <td>唐大什</td>
+                        </tr>
+                        <tr class="double">
+                            <td>课程</td>
+                            <td><a href ="https://www.icourse163.org/course/ECNU-1002842004?from=searchPage" target="_blank">
+                                Java核心技术 华东师范大学</a></td>
+                            <td>/</td>
+                            <td>陈良育</td>
+                        </tr>
+                        <tr class="once">
+                            <td>课程</td>
+                            <td><a href ="https://www.icourse163.org/course/ZZU-1207193805?from=searchPage" target="_blank">
+                                数据结构（Java版）郑州大学</a></td>
+                            <td>/</td>
+                            <td>徐爱琴 王志华</td>
+                        </tr>
+                        </table>
+                    </ul>
+                    <ul>
+                        <li><strong>计算机科学导论</strong></li>
+                        <table border='5'>
+                        <tr>
+                            <th>类型</th>
+                            <th>名称</th>
+                            <th>版本</th>
+                            <th>作者</th>                   
+                        </tr>                
+                        <tr class="once">
+                            <td>专业课课本</td>
+                            <td><a href ="https://book.douban.com/subject/26726452/" target="_blank">
+                                计算机科学导论</a></td>
+                            <td>原书第三版</td>
+                            <td>贝赫鲁兹·佛罗赞</td>
+                        </tr>
+                        <tr class="double">
+                            <td>专业课课本</td>
+                            <td><a href ="http://www.hzcourse.com/web/teachRes/detail/1331/207" target="_blank">
+                                计算机导论习题与解答</a></td>
+                            <td>第一版</td>
+                            <td>Ramon A.Mata-Toledo,Pauline K.Cushman</td>
+                        </tr>
+                        <tr class="once">
+                            <td>专业课课本</td>
+                            <td><a href ="https://www.epubit.com/bookDetails?id=UBb6412bc13220" target="_blank">
+                                Python计算与编程实践</a></td>
+                            <td>第四版</td>
+                            <td>马克·古茨戴尔</td>
+                        </tr>
+                        <tr class="double">
+                            <td>课程</td>
+                            <td><a href ="https://book.douban.com/subject/26726452/" target="_blank">
+                                斯坦福大学 计算机科学导论 公开课</a></td>
+                            <td>/</td>
+                            <td>Patrick Young</td>
+                        </tr>
+                        <tr class="once">
+                            <td>课程</td>
+                            <td><a href ="https://www.bilibili.com/video/BV1ty4y1x7xP?from=search&seid=16519003688563535863&spm_id_from=333.337.0.0" target="_blank">
+                                麻省理工学院——Python编程语言和计算机科学导论公开课</a></td>
+                            <td>/</td>
+                            <td>Ana Bell</td>
+                        </tr>
+                        <tr class="double">
+                            <td>课程</td>
+                            <td><a href ="https://www.bilibili.com/video/BV1Qt411J7mo?from=search&seid=16519003688563535863&spm_id_from=333.337.0.0" target="_blank">
+                                哈尔滨工业大学-计算机专业导论（国家级精品课）</a></td>
+                            <td>/</td>
+                            <td>战德臣</td>
+                        </tr>
+                        <tr class="once">
+                            <td>课程</td>
+                            <td><a href ="https://www.bilibili.com/video/BV1Rb411378V?from=search&seid=1798582802410036674&spm_id_from=333.337.0.0" target="_blank">
+                                计算机科学CS50-哈佛大学</a></td>
+                            <td>/</td>
+                            <td>David J.Malan</td>
+                        </tr>
+                        <tr class="double">
+                            <td>课程</td>
+                            <td><a href ="https://www.icourse163.org/course/NWU-1206008805?from=searchPage" target="_blank">
+                                计算机导论 西北大学</a></td>
+                            <td>/</td>
+                            <td>董卫军</td>
+                        </tr>
+                        </table>
+                    </ul>
+                    <li><strong>计算机结构</strong></li>
+                    <ul>
+                      <li><strong>操作系统</strong></li>
+                      <table border='5'>
+                      <tr>
+                         <th>类型</th>
+                         <th>名称</th>
+                         <th>版本</th>
+                         <th>作者</th>                   
+                        </tr>
+                        <tr class="once">
+                            <td>专业课课本</td>
+                            <td><a href ="https://book.douban.com/subject/33463930/" target="_blank">
+                                操作系统导论</a></td>
+                            <td>原书第三版</td>
+                            <td>[美] Remzi H. Arpaci-Dusseau / [美] Andrea C. Arpaci-Dusseau </td>
+                        </tr>
+                        <tr class="double">
+                            <td>经典读物</td>
+                            <td><a href ="https://book.douban.com/subject/5064311/" target="_blank">
+                                  操作系统精髓与设计原理</a></td>
+                            <td>原书第六版</td>
+                            <td>William Stallings </td>
+                        </tr>
+                        <tr class="once">
+                            <td>经典读物</td>
+                            <td><a href ="https://book.douban.com/subject/27096665/" target="_blank">
+                                  现代操作系统</a></td>
+                            <td>原书第四版</td>
+                            <td> Andrew S. Tanenbaum / [荷]Herbert Bos </td>
+                        </tr>
+                        <tr class="double">
+                            <td>经典读物</td>
+                            <td><a href ="https://book.douban.com/subject/3108799/" target="_blank">
+                                  操作系统设计与实现</a></td>
+                            <td>/</td>
+                            <td>ANDREW S.TANENBAUM，ALBERT S.WOODHULL </td>
+                        </tr>
+                        <tr class="once">
+                          <td>课程</td>
+                          <td><a href ="https://www.icourse163.org/course/SUDA-1001752241?from=searchPage" target="_blank">
+                                  操作系统 苏州大学</a></td>
+                            <td>/</td>
+                            <td>李培峰，吕强，王红玲，许佳捷</td>
+                        </tr>
+                        <tr class="double">
+                            <td>课程</td>
+                            <td><a href ="https://www.bilibili.com/video/BV1uW411f72n?p=61" target="_blank">
+                                  操作系统原理 清华大学</a></td>
+                            <td>/</td>
+                            <td>Chen,Yu</td>
+                        </tr>
+                        <tr class="once">
+                            <td>课程</td>
+                            <td><a href ="https://www.bilibili.com/video/BV19k4y1C7kA?from=search&seid=16047050954398035712&spm_id_from=333.337.0.0" target="_blank">
+                                  操作系统 麻省理工</a></td>
+                            <td>/</td>
+                            <td>Morris</td>
+                        </tr>
+                        <tr class="double">
+                            <td>课程</td>
+                            <td><a href ="https://www.bilibili.com/video/BV1d4411v7u7?from=search&seid=16047050954398035712&spm_id_from=333.337.0.0" target="_blank">
+                                  操作系统原理</a></td>
+                            <td>/</td>
+                            <td>李治军</td>
+                        </tr>
+                        </table>
+                    </ul>
+                    <ul>
+                        <li><strong>分布式操作系统</strong></li>
+                        <table border='5'>                <tr>
+                            <th>类型</th>
+                            <th>名称</th>
+                            <th>版本</th>
+                            <th>作者</th>                   
+                        </tr>
+                        <tr class="once">
+                            <td>经典读物</td>
+                            <td><a href ="https://book.douban.com/subject/21624776/" target="_blank">
+                                  分布式系统概念与设计</a></td>
+                            <td>原书第三版</td>
+                            <td> George Coulouris，Jean Dollimore，Tim Kindberg，Gordon Blair  </td>
+                       </tr>
+                        <tr class="double">
+                            <td>经典读物</td>
+                            <td><a href ="http://www.hzcourse.com/web/teachRes/detail/1364/215" target="_blank">
+                                  分布式操作系统原理与实践（</a></td>
+                            <td>第二版</td>
+                            <td>（美）Doreen L.Galli</td>
+                        </tr>
+                        <tr class="once">
+                            <td>经典读物</td>
+                            <td><a href ="http://www.hzcourse.com/web/teachRes/detail/1910/215" target="_blank">
+                                  分布式操作系统</a></td>
+                            <td>/</td>
+                            <td>Andrew S. Tanenbaum </td>
+                        </tr>
+                        <tr class="double">
+                            <td>课程</td>
+                            <td><a href ="https://www.bilibili.com/video/BV1K54y1Y7VV?from=search&seid=2315930799212844996&spm_id_from=333.337.0.0" target="_blank">
+                                  麻省大学《分布式操作系统》课程</a></td>
+                            <td>/</td>
+                            <td>Parshant Shenoy</td>
+                        </tr>
+                       
+                        </table>
+                    </ul>
+                    <ul>
+                        <div >                        
+                            <li><strong>计算机结构原理</strong></li>
+                            <table border='5'>
+                            
+                        </div>
+
+                        <tr class="once">
+                            <th>类型</th>
+                            <th>名称</th>
+                            <th>版本</th>
+                            <th>作者</th>                   
+                        </tr>
+                        <tr class="once">
+                            <td>经典读物</td>
+                            <td><a href ="https://book.douban.com/subject/21624776/" target="_blank">
+                                  计算机体系结构：量化研究方法</a></td>
+                            <td>原书第三版</td>
+                            <td>  Hennessy，David A. Patterson   </td>
+                        </tr>
+                        <tr class="double">
+                            <td>课程</td>
+                            <td><a href ="https://www.bilibili.com/video/BV12W411s7JR?from=search&seid=13382250224488082509&spm_id_from=333.337.0.0" target="_blank">
+                                  计算机系统结构 哈尔滨工程大学</a></td>
+                            <td>/</td>
+                            <td>李学干 </td>
+                        </tr>
+                        <tr class="once">
+                            <td>课程</td>
+                            <td><a href ="https://www.icourse163.org/course/SEU-1462119169?from=searchPage" target="_blank">
+                                  计算机结构与逻辑设计 东南大学</a></td>
+                            <td>/</td>
+                            <td>陈洁 杨兰兰 仲雪飞 王立峰</td>
+                        </tr>
+                        </tr>
+                        </table>
+                    </ul>
+                    <ul>
+                        
+                     <li><strong>嵌入式系统</strong></li>
+                            <table border='5'>
+
+
+                        <tr>
+                            <th>类型</th>
+                            <th>名称</th>
+                            <th>版本</th>
+                            <th>作者</th>                   
+                        </tr>
+                        <tr class="once">
+                            <td>专业课课本</td>
+                            <td><a href ="https://book.douban.com/subject/7058041/" target="_blank">
+                                  嵌入式系统导论：CPS方法</a></td>
+                            <td>第四版</td>
+                            <td>（美）Edward Ashford Lee / （美）Sanjit Arunkumar Seshia  </td>
+                        </tr>            
+                        <tr class="double">
+                            <td>专业课课本</td>
+                            <td><a href ="http://www.hzcourse.com/web/teachRes/detail/747/222" target="_blank">
+                                  嵌入式系统基础教程</a></td>
+                            <td>/</td>
+                            <td>俞建新,王健,宋健建 </td>
+                        </tr>
+                        <tr class="once">
+                            <td>经典读物</td>
+                            <td><a href ="http://www.hzcourse.com/web/teachRes/detail/4415/222" target="_blank">
+                                  嵌入式计算系统设计原理</a></td>
+                            <td>原书第四版</td>
+                            <td>Marilyn Wolf </td>
+                        </tr>
+                        <tr class="double">
+                            <td>经典读物</td>
+                            <td><a href ="http://www.hzcourse.com/web/teachRes/detail/4155/231" target="_blank">
+                                  ARM嵌入式系统编程与优化</a></td>
+                            <td>\</td>
+                            <td> Jason D. Bakos </td>
+                        </tr>
+              
+                        <tr class="once">
+                            <td>课程</td>
+                            <td><a href ="https://www.icourse163.org/course/SUDA-1001752241?from=searchPage" target="_blank">
+                                  微处理器与嵌入式系统设计 电子科技大学</a></td>
+                            <td>/</td>
+                            <td>林水生</td>
+                        </tr>
+                        <tr class="double">
+                            <td>课程</td>
+                            <td><a href ="https://www.bilibili.com/video/BV1z4411B7Bu?from=search&seid=14779177679661991978&spm_id_from=333.337.0.0" target="_blank">
+                                  嵌入式系统原理及应用 哈尔滨工业大学</a></td>
+                            <td>/</td>
+                            <td>赵志衡</td>
+                        </tr>
+                        <tr class="once">
+                            <td>课程</td>
+                            <td><a href ="https://www.icourse163.org/course/UESTC-1206862805?from=searchPage" target="_blank">
+                                  嵌入式系统及应用 电子科技大学</a></td>
+                            <td>/</td>
+                            <td>李允等</td>
+                        </tr>
+                        <tr class="double">
+                            <td>课程</td>
+                            <td><a href ="https://www.bilibili.com/video/BV18b411L7Zd?from=search&seid=2530496240583814997&spm_id_from=333.337.0.0" target="_blank">
+                                  嵌入式系统 浙江大学</a></td>
+                            <td>/</td>
+                            <td>陈天洲</td>
+                        </tr>
+                        </table>
+                    </ul>  
+                </ul>  
+                <div class="titlefor3" id="4">
+                    <h3>我对计算机专业的认识</h3>
+                </div>  
+                
+    
+                <ul>
+                    <li class="third-title"><strong>计算机专业应用面广</strong></li>
+                    <p class="block1">随着第四次工业革命的浪潮滚滚前来，越来越多的新兴技术不断产生，无论是云技术、人工智能，或是物联网、智能电气等，
+                        它们正不断改变我们的生活，那些越小越便捷的笔记本电脑，那些满足个性化需要的平板电脑，那功能越来越强大的手机无一不应用到计算机的专业知识，
+                        还有新兴的如云储存、智能电器等技术，也大幅应用计算机专业知识，为我们更高质量的生活提供了保证，
+                        因而，在这个信息化向智能化过渡的时代，迫切地需要具有创新素养、科学精神、责任担当、合作意识的专业人才。这也即是需要我们不断学习专业知识，
+                        不断参与程序设计的实践，不断参与力所能及的项目开发中去，用挥洒的汗水与持之以恒的拼搏，为一等人才，为世界之光。</p>
+                    <li class="third-title"><strong>计算机专业需要终生学习</strong></li>
+                    <p class="block1">计算机专业是一个更新换代及其迅速的专业，一门语言可能今天还很火热，可能明天便会退出历史舞台，
+                        我们须不断扩充掌握新的知识，适应时代浪潮，手把红旗旗不湿，在不断地学习汲取新的知识的过程中，用专业知识武装自己，
+                        成为时代的弄潮儿。与此同时，计算机专业的学习万不能浅尝即止，须拓展视野，在学好课堂上书本里的知识的同时不断阅读更多的材料，
+                        比如前面制作完成的那些参考资料，在阅读那些经典读物的过程中，可以深入理解计算机中各部分之间的逻辑关系，
+                        也可以更加准确地体会各种代码的含义与存在的意义。总而言之，计算机是一门趣味而富有价值，给人以收货而兼具挑战的专业，值得我辈莘莘学子的全情投入。
+                    </p>
+                </ul>
+                <div class="titlefor4" id="5">
+                       <h3>我的学业规划</h3>
+                </div>          
+                <ul>
+                    <li class="third-title" ><strong>培养目标与自我定位</strong></li>
+                    <p class="block1">计算机专业需培养适应社会主义市场经济需要，德、智、体、美全面发展，面向IT行业的生产、管理和服务第一线，
+                        熟悉计算机软硬件基础知识，熟练掌握计算机操作技能，能从事计算机设备安装与维护、计算机文字图表与图像处理、网站规划与网页设计、
+                        软件应用程序编写与测试、数据库应用技术开发与管理、网络建设管理与维护、IT软硬件产品销售及维护服务等技能，具有解决实际问题能力、
+                        创新能力、可持续发展能力和良好职业素质兼具责任担当、合作意识的高端技能型专门人才，也即意味着我需打下扎实的数理基础，
+                        打好扎实的计算机语言功底，兼具缜密的算法逻辑，在学好课本的知识的同时，不断参与程序设计的实践，不断参与力所能及的项目开发中去，
+                        用挥洒的汗水与持之以恒的拼搏，谱写自己的青春之光。</p>
+                    <li class="third-title"><strong>大一阶段</strong></li>
+                    <p class="block1">大一阶段的学习主要是培养对计算机学科的兴趣，在讲解python语言的过程中穿插讲解计算机整体概览，在学习c语言python语言的过程中，
+                        不断培养自己对计算机专业的兴趣，与此同时，我也需克服困难，努力打好高数与线性代数的基础，为今后更好地理解计算机专业课的知识做好准备。
+                    </p>
+                    <li class="third-title"><strong>大二阶段</strong></li>
+                    <p class="block1">大二阶段的学习目标主要是培养计算机思维，学好算法及其原理，并不断学习了解相关的就业形式与市场动态，更加明晰自己的职业方向。
+                        同时，需专注于一门计算机语言不断深入学习，打磨自己的一技之长。
+                    </p>
+                    <li class="third-title"><strong>大三大四阶段</strong></li>
+                    <p class="block1">在大三大四的学习中，我计划挑选自己最感兴趣的专业课进行深入学习，并利用课外时间，积极与老师学长联系，
+                        主动参与项目组研究中去，做一些自己力所能及的工作，为以后的项目开发积累经验。同时，也应开始复习，做好大四的考研准备。
+                    </p>
+        
+            </div>
+        </div>
+        <dis class="right column">
+            <ul id="abc">
+                
+                <a href="#1" ><h1>目录        返回首页</h1></a>
+                <li><a href="#2" >
+                <h1>      第一大题</h1>
+                <span>计算机学科课程关系图</span></a></li>
+                 
+                <li><a href="#3" >                   
+                <h1>第二大题</h1>
+                <span>
+                    <ul>参考资料 </ul>                     
+                    <ul>计算机语言</ul>
+                    <ul>计算机结构</ul>
+                    <ul></ul>
+                </span></a></li>
+                
+                <li><a href="#4" >
+                <h1>第三大题</h1>
+                <span>对计算机专业的认识</span></a></li>
+                <li class="end"><a href="#5">
+                <h1>第四大题</h1>
+                <span>我的学业规划
+                <ul>大一</ul>
+                <ul>大二</ul>
+                <ul>大三</ul>
+                <ul>大四</ul>
+                </span></a></li>
+                <audio id="audio" src="music\雪娟 - 春之歌（门德尔松）.mp3" controls="controls"  autoplay="autoplay" loop="loop" preload="auto"></audio>
+        </div>
+    </div>
+</body>
+</html>
